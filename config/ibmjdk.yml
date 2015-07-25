@@ -14,19 +14,6 @@
 # limitations under the License.
 
 # Configuration for JRE repository
-#---
-#repository_root: "https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/jre"
-#version: 1.7.+
-# Configuration for OpenJdk repository
 ---
-repository_root: "https://download.run.pivotal.io/openjdk/lucid/x86_64"
-version: 1.8.0_+
-memory_sizes:
-  metaspace: 128m..
-  #permgen: 64m..
-memory_heuristics:
-  heap: 150
-  metaspace: 20
-  # permgen: 10
-  stack: 10
-  native: 20
+repository_root: "https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/jre"
+version: 1.8.+
