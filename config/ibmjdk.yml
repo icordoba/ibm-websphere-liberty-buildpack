@@ -22,11 +22,11 @@
 repository_root: "https://download.run.pivotal.io/openjdk/lucid/x86_64"
 version: 1.8.0_+
 memory_sizes:
-  metaspace: 64m..
+  metaspace: 128m..
   #permgen: 64m..
 memory_heuristics:
-  heap: 75
-  metaspace: 10
+  heap: 150
+  metaspace: 20
   # permgen: 10
-  stack: 5
-  native: 10
+  stack: 10
+  native: 20
